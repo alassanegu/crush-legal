@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crush — Informations légales</title>
+<style>
+/* Même identité que les deux autres pages, en plus court : ce n'est qu'un
+   sommaire. Style intégré, pour que le fichier reste autonome. */
+:root {
+  --violet: #1a0d2e; --or: #e8a030; --creme: #f5f0e8;
+  --texte: #1a0d2e; --attenue: #5b4a70; --bord: rgba(26,13,46,.12);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--creme); color: var(--texte);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+header { background: var(--violet); padding: 40px 20px 36px; text-align: center; }
+header .marque {
+  font-family: Georgia, "Times New Roman", serif; font-style: italic;
+  font-size: 38px; color: var(--or); margin: 0;
+}
+header .sous {
+  color: rgba(245,240,232,.75); font-size: 12px; letter-spacing: 3px;
+  text-transform: uppercase; margin: 6px 0 0;
+}
+main { max-width: 560px; margin: 0 auto; padding: 40px 20px 72px; }
+h1 { font-size: 22px; margin: 0 0 22px; }
+a.carte {
+  display: block; background: #fff; border: 1px solid var(--bord);
+  border-left: 3px solid var(--or); border-radius: 10px;
+  padding: 16px 18px; margin-bottom: 14px;
+  text-decoration: none; color: var(--texte);
+}
+a.carte strong { display: block; font-size: 16px; }
+a.carte span { color: var(--attenue); font-size: 14px; }
+footer { color: var(--attenue); font-size: 13.5px; margin-top: 36px; }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --creme: #150c22; --texte: #f5f0e8; --attenue: #a394bd;
+    --bord: rgba(245,240,232,.14);
+  }
+  a.carte { background: #211530; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <p class="marque">Crush</p>
+  <p class="sous">Rencontres</p>
+</header>
+
+<main>
+  <h1>Informations légales</h1>
+
+  <a class="carte" href="privacy.html">
+    <strong>Politique de confidentialité</strong>
+    <span>Les données collectées, leur usage, leur durée de conservation et comment les supprimer.</span>
+  </a>
+
+  <a class="carte" href="support.html">
+    <strong>Aide et contact</strong>
+    <span>Questions fréquentes et adresse pour nous écrire.</span>
+  </a>
+
+  <footer>
+    <p>Crush est édité par Alassane Gueye, Le Havre, France.</p>
+  </footer>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crush — Aide et contact</title>
+<style>
+/* Feuille commune aux deux pages publiques de Crush.
+   Volontairement autonome : ces pages sont hébergées séparément de
+   l'application, sur GitHub Pages ou équivalent, sans aucune construction. */
+
+:root {
+  --violet: #1a0d2e;
+  --or: #e8a030;
+  --creme: #f5f0e8;
+  --texte: #1a0d2e;
+  --attenue: #5b4a70;
+  --bord: rgba(26, 13, 46, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--creme);
+  color: var(--texte);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+header {
+  background: var(--violet);
+  padding: 32px 20px 28px;
+  text-align: center;
+}
+
+header .marque {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 34px;
+  color: var(--or);
+  margin: 0;
+}
+
+header .sous {
+  color: rgba(245, 240, 232, 0.75);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 6px 0 0;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 72px;
+}
+
+h1 { font-size: 26px; letter-spacing: -0.4px; margin: 0 0 6px; }
+
+.maj { color: var(--attenue); font-size: 14px; margin: 0 0 32px; }
+
+h2 {
+  font-size: 18px;
+  margin: 38px 0 10px;
+  padding-top: 22px;
+  border-top: 1px solid var(--bord);
+}
+
+h3 { font-size: 15px; margin: 22px 0 6px; }
+
+p, li { color: #2c1c44; }
+
+ul { padding-left: 20px; }
+li { margin-bottom: 7px; }
+
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14.5px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--bord); vertical-align: top; }
+th { color: var(--attenue); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Le tableau ne doit jamais élargir la page sur un téléphone. */
+.defilant { overflow-x: auto; }
+
+.encadre {
+  background: #fff;
+  border: 1px solid var(--bord);
+  border-left: 3px solid var(--or);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 20px 0;
+}
+
+a { color: #6b48e8; }
+
+footer {
+  border-top: 1px solid var(--bord);
+  margin-top: 48px;
+  padding-top: 20px;
+  color: var(--attenue);
+  font-size: 13.5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --creme: #150c22;
+    --texte: #f5f0e8;
+    --attenue: #a394bd;
+    --bord: rgba(245, 240, 232, 0.14);
+  }
+  p, li { color: #e6dff0; }
+  .encadre { background: #211530; }
+  a { color: #b9a4ff; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <p class="marque">Crush</p>
+  <p class="sous">Rencontres</p>
+</header>
+
+<main>
+  <h1>Aide et contact</h1>
+  <p class="maj">Dernière mise à jour : 7 septembre 2026</p>
+
+  <div class="encadre">
+    <strong>Nous écrire :</strong>
+    <a href="mailto:gueyealassane86@gmail.com">gueyealassane86@gmail.com</a><br>
+    Nous répondons sous 48 heures ouvrées.
+    <br><br>
+    Crush est édité par Alassane Gueye, Le Havre, France.
+  </div>
+
+  <h2>Comment fonctionne Crush</h2>
+  <p>
+    Crush ne propose pas des profils au hasard : il repère les personnes que
+    vous avez réellement croisées. Quand deux membres se trouvent au même
+    endroit à peu près au même moment, l'application enregistre un croisement
+    et vous propose ce profil. Les meilleures histoires commencent souvent par
+    quelqu'un qu'on a déjà vu sans lui parler.
+  </p>
+
+  <h2>Questions fréquentes</h2>
+
+  <h3>Je ne reçois pas mon code de connexion</h3>
+  <ul>
+    <li>Regardez le dossier <strong>courrier indésirable</strong> : c'est la cause la plus fréquente.</li>
+    <li>Le code expire au bout d'une heure. Au-delà, redemandez-en un.</li>
+    <li>Il faut attendre 60 secondes entre deux demandes.</li>
+    <li>Vérifiez qu'il n'y a pas de faute de frappe dans l'adresse saisie.</li>
+    <li>Si rien n'arrive après plusieurs minutes, écrivez-nous en indiquant l'adresse utilisée.</li>
+  </ul>
+
+  <h3>Je ne vois aucun profil</h3>
+  <ul>
+    <li>Autorisez la <strong>localisation</strong> : sans elle, aucun croisement ne peut être calculé. Réglages du téléphone → Crush → Position.</li>
+    <li>Crush repose sur les croisements réels : au tout début, et si peu de membres sont actifs autour de vous, la liste peut être vide. Elle se remplit à mesure que vous vous déplacez.</li>
+    <li>Vos filtres sont peut-être trop stricts. Élargissez la tranche d'âge ou la distance dans Préférences.</li>
+  </ul>
+
+  <h3>Comment supprimer mon compte ?</h3>
+  <p>
+    Paramètres → Zone sensible → <strong>Supprimer mon compte</strong>. Votre
+    profil, vos photos, vos matchs, vos messages et vos croisements sont
+    effacés définitivement. Personne, pas même nous, ne peut les récupérer
+    ensuite.
+  </p>
+  <p>
+    Pour interrompre sans effacer, utilisez plutôt
+    <strong>Mettre mon compte en pause</strong> : vous disparaissez des
+    croisements et vous pouvez revenir quand vous voulez.
+  </p>
+
+  <h3>Comment signaler ou bloquer quelqu'un ?</h3>
+  <p>
+    Ouvrez son profil et utilisez <strong>Signaler</strong> ou
+    <strong>Bloquer</strong>. Une personne bloquée ne peut plus vous voir, vous
+    croiser ni vous écrire, et n'est pas informée du blocage. Vos signalements
+    sont confidentiels : votre identité n'est jamais communiquée à la personne
+    signalée. Vous les retrouvez dans Paramètres → Mes signalements.
+  </p>
+  <p>
+    Si vous vous sentez en danger, contactez d'abord les services d'urgence
+    locaux. Écrivez-nous ensuite : nous traitons ces signalements en priorité.
+  </p>
+
+  <h3>Comment faire vérifier mon profil ?</h3>
+  <p>
+    Paramètres → Sécurité → Vérification photo. Écrivez votre prénom sur une
+    feuille et prenez un selfie en la tenant. Notre équipe compare avec vos
+    photos et accorde le badge. Cette photo n'apparaît jamais sur votre profil
+    et est supprimée une fois la vérification traitée.
+  </p>
+
+  <h3>Est-ce que Crush est payant ?</h3>
+  <p>
+    Non. Pendant la période de lancement, toutes les fonctionnalités sont
+    offertes à tous les membres. Si des abonnements sont introduits plus tard,
+    vous en serez prévenu dans l'application avant tout changement.
+  </p>
+
+  <h3>Ma position est-elle visible des autres ?</h3>
+  <p>
+    Non. Les autres membres voient une distance approximative et, le cas
+    échéant, le quartier d'un croisement — jamais une adresse ni des
+    coordonnées. Vous pouvez masquer la distance dans
+    Paramètres → Confidentialité, ou activer le mode invisible pour naviguer
+    sans apparaître dans les croisements des autres.
+  </p>
+
+  <h3>Je ne reçois plus les notifications</h3>
+  <ul>
+    <li>Vérifiez Paramètres → Notifications dans l'application : chaque type a son interrupteur.</li>
+    <li>Vérifiez ensuite les réglages du téléphone → Crush → Notifications.</li>
+    <li>Après une longue absence, rouvrez simplement l'application : l'appareil se réenregistre tout seul.</li>
+  </ul>
+
+  <h2>Signaler un problème technique</h2>
+  <p>
+    Écrivez-nous en précisant votre modèle de téléphone, la version du système,
+    ce que vous faisiez au moment du problème et ce qui s'est passé. Une
+    capture d'écran aide beaucoup.
+  </p>
+
+  <footer>
+    <p>
+      <a href="privacy.html">Politique de confidentialité</a> · Crush — Rencontres
+    </p>
+  </footer>
+</main>
+
+</body>
+</html>

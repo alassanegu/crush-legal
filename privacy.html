@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crush — Politique de confidentialité</title>
+<style>
+/* Feuille commune aux deux pages publiques de Crush.
+   Volontairement autonome : ces pages sont hébergées séparément de
+   l'application, sur GitHub Pages ou équivalent, sans aucune construction. */
+
+:root {
+  --violet: #1a0d2e;
+  --or: #e8a030;
+  --creme: #f5f0e8;
+  --texte: #1a0d2e;
+  --attenue: #5b4a70;
+  --bord: rgba(26, 13, 46, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--creme);
+  color: var(--texte);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+header {
+  background: var(--violet);
+  padding: 32px 20px 28px;
+  text-align: center;
+}
+
+header .marque {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 34px;
+  color: var(--or);
+  margin: 0;
+}
+
+header .sous {
+  color: rgba(245, 240, 232, 0.75);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 6px 0 0;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 72px;
+}
+
+h1 { font-size: 26px; letter-spacing: -0.4px; margin: 0 0 6px; }
+
+.maj { color: var(--attenue); font-size: 14px; margin: 0 0 32px; }
+
+h2 {
+  font-size: 18px;
+  margin: 38px 0 10px;
+  padding-top: 22px;
+  border-top: 1px solid var(--bord);
+}
+
+h3 { font-size: 15px; margin: 22px 0 6px; }
+
+p, li { color: #2c1c44; }
+
+ul { padding-left: 20px; }
+li { margin-bottom: 7px; }
+
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14.5px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--bord); vertical-align: top; }
+th { color: var(--attenue); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Le tableau ne doit jamais élargir la page sur un téléphone. */
+.defilant { overflow-x: auto; }
+
+.encadre {
+  background: #fff;
+  border: 1px solid var(--bord);
+  border-left: 3px solid var(--or);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 20px 0;
+}
+
+a { color: #6b48e8; }
+
+footer {
+  border-top: 1px solid var(--bord);
+  margin-top: 48px;
+  padding-top: 20px;
+  color: var(--attenue);
+  font-size: 13.5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --creme: #150c22;
+    --texte: #f5f0e8;
+    --attenue: #a394bd;
+    --bord: rgba(245, 240, 232, 0.14);
+  }
+  p, li { color: #e6dff0; }
+  .encadre { background: #211530; }
+  a { color: #b9a4ff; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <p class="marque">Crush</p>
+  <p class="sous">Rencontres</p>
+</header>
+
+<main>
+  <h1>Politique de confidentialité</h1>
+  <p class="maj">Dernière mise à jour : 7 septembre 2026</p>
+
+  <p>
+    Crush est une application de rencontre fondée sur les croisements réels :
+    elle repère les personnes que vous croisez vraiment dans votre quartier.
+    Cela suppose de traiter des données précises, notamment votre position.
+    Cette page décrit exactement lesquelles, pourquoi, avec qui elles sont
+    partagées et combien de temps elles sont conservées.
+  </p>
+
+  <div class="encadre">
+    <strong>L'essentiel en quatre points.</strong>
+    Crush ne vend aucune donnée et n'affiche aucune publicité. Votre position
+    précise n'est jamais montrée à quiconque : seuls le fait d'un croisement et
+    un lieu approximatif le sont. Vous pouvez supprimer votre compte et tout ce
+    qu'il contient depuis l'application, en deux gestes. L'application est
+    réservée aux personnes majeures.
+  </div>
+
+  <h2>1. Qui est responsable</h2>
+  <p>
+    Le responsable du traitement est <strong>Alassane Gueye</strong>, éditeur
+    de l'application Crush, domicilié au Havre, France.
+  </p>
+  <p>
+    Pour toute question relative à vos données, ou pour exercer les droits
+    décrits au point&nbsp;8 :
+    <a href="mailto:gueyealassane86@gmail.com">gueyealassane86@gmail.com</a>.
+  </p>
+
+  <h2>2. Les données que nous collectons</h2>
+
+  <h3>Que vous nous fournissez</h3>
+  <div class="defilant">
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th></tr>
+    <tr><td>Adresse e-mail</td><td>Créer le compte et vous connecter par code à usage unique. C'est le seul identifiant de connexion.</td></tr>
+    <tr><td>Prénom, date de naissance, genre</td><td>Afficher votre profil et vérifier que vous êtes majeur.</td></tr>
+    <tr><td>Photos de profil</td><td>Illustrer votre profil. Visibles par les autres membres.</td></tr>
+    <tr><td>Description, ville, quartier, taille, signe astrologique, religion, rapport aux enfants et à la cigarette, intention de rencontre</td><td>Renseignements facultatifs affichés sur votre profil et utilisés par les filtres de recherche.</td></tr>
+    <tr><td>Photo de vérification</td><td>Facultative. Elle sert uniquement à confirmer que vous êtes la personne sur vos photos, n'apparaît jamais sur votre profil, et est supprimée une fois la vérification traitée.</td></tr>
+    <tr><td>Messages, photos envoyées en conversation</td><td>Acheminer vos échanges. Nous ne les lisons pas, sauf signalement.</td></tr>
+    <tr><td>Signalements et blocages</td><td>Traiter les abus et vous protéger.</td></tr>
+  </table>
+  </div>
+
+  <h3>Que votre appareil transmet</h3>
+  <div class="defilant">
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th></tr>
+    <tr><td><strong>Position GPS précise</strong></td><td>Calculer les croisements et afficher les profils proches. Nous conservons votre position courante et la précédente.</td></tr>
+    <tr><td>Jeton de notification et type d'appareil</td><td>Vous envoyer les alertes de likes, messages et croisements.</td></tr>
+    <tr><td>Code pays de l'appareil</td><td>Choisir la devise d'affichage des prix.</td></tr>
+  </table>
+  </div>
+
+  <h3>Que nous déduisons</h3>
+  <div class="defilant">
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th></tr>
+    <tr><td>Croisements : qui vous avez croisé, quand, à quel endroit approximatif, combien de fois</td><td>C'est le cœur de Crush. Un croisement est enregistré quand deux membres se trouvent à faible distance l'un de l'autre.</td></tr>
+    <tr><td>Likes, Super Crushs, profils passés, matchs</td><td>Faire fonctionner la mise en relation et ne pas vous remontrer les mêmes profils.</td></tr>
+    <tr><td>Dernière activité, statut en ligne</td><td>Indiquer aux autres si vous êtes actif récemment.</td></tr>
+  </table>
+  </div>
+
+  <h2>3. Ce que les autres membres voient</h2>
+  <p>
+    Votre prénom, votre âge, vos photos, les renseignements de profil que vous
+    avez remplis, et le fait que vous vous soyez croisés.
+  </p>
+  <p>
+    <strong>Votre position exacte n'est jamais communiquée.</strong> Les autres
+    membres voient une distance approximative et, le cas échéant, le nom du
+    quartier où le croisement a eu lieu — jamais une adresse ni des
+    coordonnées. Vous pouvez masquer entièrement la distance dans
+    Paramètres → Confidentialité, et mettre votre profil en pause pour
+    disparaître des croisements.
+  </p>
+
+  <h2>4. Avec qui ces données sont partagées</h2>
+  <p>
+    Nous ne vendons ni ne louons aucune donnée. Nous ne diffusons pas de
+    publicité. Vos données sont confiées aux seuls prestataires nécessaires au
+    fonctionnement de l'application, qui agissent sur nos instructions et sont
+    tenus d'assurer une protection au moins équivalente à celle décrite ici.
+  </p>
+  <div class="defilant">
+  <table>
+    <tr><th>Prestataire</th><th>Rôle</th><th>Ce qui lui est confié</th></tr>
+    <tr><td>Supabase</td><td>Hébergement, base de données, authentification, stockage des photos</td><td>L'ensemble des données ci-dessus</td></tr>
+    <tr><td>Expo, puis Apple ou Google</td><td>Acheminement des notifications</td><td>Le jeton de votre appareil, le titre et le texte de la notification</td></tr>
+    <tr><td>Google (service d'envoi d'e-mails)</td><td>Envoi du code de connexion</td><td>Votre adresse e-mail et le code</td></tr>
+  </table>
+  </div>
+  <p>
+    Les fonctions de paiement sont actuellement désactivées : toutes les
+    fonctionnalités sont offertes. Lorsqu'elles seront activées, le paiement
+    sera traité par un prestataire spécialisé et <strong>aucune donnée de carte
+    bancaire ne transitera par nos serveurs ni n'y sera conservée</strong>.
+  </p>
+  <p>
+    Nous pouvons également communiquer des données si la loi nous y oblige, ou
+    pour protéger l'intégrité physique d'une personne.
+  </p>
+
+  <h2>5. Combien de temps nous conservons vos données</h2>
+  <div class="defilant">
+  <table>
+    <tr><th>Donnée</th><th>Durée</th></tr>
+    <tr><td>Notifications</td><td>48 heures, puis suppression automatique. Les annonces de l'équipe sont conservées 7 jours.</td></tr>
+    <tr><td>Croisements</td><td>7 jours pour un compte gratuit, 30 jours avec un abonnement Premium, conservés tant que l'abonnement Supreme est actif. Passé ce délai, la ligne est supprimée automatiquement.</td></tr>
+    <tr><td>Jeton de notification</td><td>Supprimé après 60 jours sans utilisation de l'application, ou immédiatement à la déconnexion.</td></tr>
+    <tr><td>Photo de vérification</td><td>Supprimée dès la vérification traitée.</td></tr>
+    <tr><td>Profil, photos, messages, matchs</td><td>Conservés tant que votre compte existe.</td></tr>
+  </table>
+  </div>
+
+  <h2>6. Supprimer votre compte et vos données</h2>
+  <p>
+    Dans l'application : <strong>Paramètres → Zone sensible → Supprimer mon
+    compte</strong>. Une confirmation vous est demandée.
+  </p>
+  <p>
+    La suppression retire vos photos du stockage, puis efface votre compte et,
+    en cascade, votre profil, vos matchs, vos messages, vos croisements, vos
+    likes et vos notifications. <strong>L'opération est immédiate et
+    irréversible</strong> : ni vous ni nous ne pouvons récupérer ces données
+    ensuite.
+  </p>
+  <p>
+    Si vous souhaitez seulement faire une pause, utilisez
+    <strong>Paramètres → Mettre mon compte en pause</strong> : votre profil
+    disparaît des croisements et de la découverte, sans rien effacer.
+  </p>
+
+  <h2>7. Retirer votre consentement</h2>
+  <ul>
+    <li><strong>Localisation</strong> — désactivez l'autorisation dans les réglages de votre téléphone. L'application reste utilisable, mais les croisements ne peuvent plus être calculés : c'est sa fonction principale.</li>
+    <li><strong>Notifications</strong> — Paramètres → Notifications, avec un interrupteur par type. Vous pouvez aussi les couper entièrement dans les réglages du téléphone.</li>
+    <li><strong>Visibilité</strong> — Paramètres → Confidentialité : mode invisible, masquage de la distance, mise en pause du profil.</li>
+    <li><strong>Tout retirer</strong> — supprimez votre compte (point 6).</li>
+  </ul>
+
+  <h2>8. Vos droits</h2>
+  <p>
+    Vous disposez d'un droit d'accès, de rectification, d'effacement,
+    d'opposition et de portabilité sur vos données. La rectification se fait
+    directement dans l'application (Modifier mon profil) et l'effacement par la
+    suppression du compte. Pour toute autre demande, écrivez-nous à l'adresse
+    du point 1 ; nous répondons sous 30 jours.
+  </p>
+  <p>
+    Selon votre lieu de résidence, vous pouvez saisir l'autorité compétente en
+    matière de protection des données — la Commission de protection des données
+    personnelles au Sénégal, ou l'autorité de votre pays au sein de l'Union
+    européenne.
+  </p>
+
+  <h2>9. Sécurité</h2>
+  <p>
+    Les échanges avec nos serveurs sont chiffrés. L'accès aux données est
+    restreint ligne par ligne : la base n'autorise chaque compte à lire que ce
+    qui le concerne. Les photos échangées en conversation sont stockées dans un
+    espace privé, accessible uniquement par des liens temporaires. La connexion
+    se fait par code à usage unique : aucun mot de passe n'est conservé.
+  </p>
+  <p>
+    Aucun système n'est infaillible. En cas de violation de données susceptible
+    de vous porter atteinte, nous vous en informerons.
+  </p>
+
+  <h2>10. Âge minimum</h2>
+  <p>
+    Crush est interdit aux mineurs. La date de naissance est vérifiée à
+    l'inscription et tout compte déclarant moins de 18 ans est refusé. Si nous
+    apprenons qu'un compte appartient à un mineur, il est supprimé.
+  </p>
+
+  <h2>11. Modifications</h2>
+  <p>
+    Cette politique peut évoluer. La date de dernière mise à jour figure en
+    haut de page, et tout changement significatif vous sera annoncé dans
+    l'application avant son entrée en vigueur.
+  </p>
+
+  <footer>
+    <p>
+      <a href="support.html">Aide et contact</a> · Crush — Rencontres
+    </p>
+  </footer>
+</main>
+
+</body>
+</html>
